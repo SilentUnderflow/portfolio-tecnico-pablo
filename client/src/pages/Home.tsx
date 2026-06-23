@@ -11,44 +11,56 @@ export default function Home() {
   const timelineItems = [
     {
       year: '2010+',
-      title: 'Construção Civil',
-      description: 'Experiência desde infância em ambientes operacionais, desenvolvendo pensamento estrutural e sequencial.',
+      title: 'Construção Civil (Contínuo)',
+      description: 'Atuação recorrente desde a infância em obras, desenvolvendo lógica estrutural, disciplina operacional e execução prática de projetos do zero.',
       icon: '🏗️',
     },
     {
-      year: '2015',
+      year: '2015+ (até hoje)',
+      title: 'Autônomo — Hardware & Manutenção',
+      description: 'Montagem, manutenção, upgrade e venda de computadores. Experiência prática em diagnóstico de hardware, troubleshooting e suporte técnico independente.',
+      icon: '🖥️',
+    },
+    {
+      year: '2018',
       title: 'Subway',
-      description: 'Primeiro emprego formal, atendimento ao cliente e operações em ambiente de ritmo acelerado.',
+      description: 'Primeiro emprego formal. Atendimento ao cliente, operação de rotina acelerada e trabalho sob pressão.',
       icon: '🍔',
     },
     {
-      year: '2016',
+      year: '2021',
       title: 'Lotérica',
-      description: 'Operações financeiras, sistemas internos e atendimento especializado.',
+      description: 'Operações financeiras, atendimento ao cliente e uso de sistemas internos de caixa e fluxo de valores.',
       icon: '💰',
     },
     {
-      year: '2017',
-      title: 'Exército',
-      description: 'Disciplina operacional, hierarquia, processos rígidos e execução sob pressão.',
+      year: '2022',
+      title: 'Exército Brasileiro',
+      description: 'Disciplina, hierarquia, execução de ordens, rotinas intensas e desenvolvimento de responsabilidade operacional e mental.',
       icon: '🪖',
     },
     {
-      year: '2018-2020',
-      title: 'Varejo & Logística',
-      description: 'Supermercado BH, Expresso B2 - gestão de fluxo, otimização de rotas e operações.',
+      year: '2023',
+      title: 'Mercado BH + Autônomo',
+      description: 'Experiência em varejo e simultaneamente atuação independente em pintura e serviços de motoboy.',
+      icon: '🏪',
+    },
+    {
+      year: '2023',
+      title: 'Expresso D2 (Logística)',
+      description: 'Operações logísticas, carga e descarga, organização de fluxo de caminhões e otimização de distribuição. Prestador de serviços para Bartofil SA.',
       icon: '🚚',
     },
     {
-      year: '2020-2024',
-      title: 'Farmácia & Autônomo',
-      description: 'Sistemas transacionais, atendimento ao cliente, trabalho autônomo em pintura.',
+      year: '2024',
+      title: 'Farma Conde',
+      description: 'Atendimento ao cliente, operação de sistemas internos, controle de estoque e apoio em vendas farmacêuticas.',
       icon: '💊',
     },
     {
       year: '2024+',
       title: 'Transição para Tecnologia',
-      description: 'Estudos em redes, Linux, Python, cibersegurança e infraestrutura. Laboratórios práticos e evolução contínua.',
+      description: 'Estudos em redes, Linux, Python, segurança da informação e construção de laboratórios práticos.',
       icon: '💻',
     },
   ];
@@ -337,7 +349,7 @@ export default function Home() {
 
           <div className="flex flex-wrap justify-center gap-6">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/pablomendess/"
               target="_blank"
               rel="noopener noreferrer"
               className="glow-effect flex items-center gap-3 rounded-lg border border-cyan-500/20 bg-gradient-to-br from-slate-900/50 to-purple-900/20 px-6 py-3 backdrop-blur-sm transition-all hover:border-cyan-400/50"
@@ -347,7 +359,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://github.com"
+              href="https://github.com/SilentUnderflow"
               target="_blank"
               rel="noopener noreferrer"
               className="glow-effect flex items-center gap-3 rounded-lg border border-cyan-500/20 bg-gradient-to-br from-slate-900/50 to-purple-900/20 px-6 py-3 backdrop-blur-sm transition-all hover:border-cyan-400/50"
@@ -357,7 +369,7 @@ export default function Home() {
             </a>
 
             <a
-              href="mailto:seu-email@exemplo.com"
+              href="mailto:pablomendes457@gmail.com"
               className="glow-effect flex items-center gap-3 rounded-lg border border-cyan-500/20 bg-gradient-to-br from-slate-900/50 to-purple-900/20 px-6 py-3 backdrop-blur-sm transition-all hover:border-cyan-400/50"
             >
               <Mail className="h-5 w-5 text-cyan-400" />
