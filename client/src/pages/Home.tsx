@@ -368,13 +368,10 @@ export default function Home() {
               <span className="font-semibold text-slate-300">GitHub</span>
             </a>
 
-            <a
-              href="mailto:pablomendes457@gmail.com"
-              className="glow-effect flex items-center gap-3 rounded-lg border border-cyan-500/20 bg-gradient-to-br from-slate-900/50 to-purple-900/20 px-6 py-3 backdrop-blur-sm transition-all hover:border-cyan-400/50"
-            >
+            <div className="glow-effect flex items-center gap-3 rounded-lg border border-cyan-500/20 bg-gradient-to-br from-slate-900/50 to-purple-900/20 px-6 py-3 backdrop-blur-sm">
               <Mail className="h-5 w-5 text-cyan-400" />
-              <span className="font-semibold text-slate-300">Email</span>
-            </a>
+              <span className="font-semibold text-slate-300">pablomendes457@gmail.com</span>
+            </div>
           </div>
         </div>
       </section>
