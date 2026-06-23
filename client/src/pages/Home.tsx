@@ -37,7 +37,7 @@ export default function Home() {
       year: '2022',
       title: 'Exército Brasileiro',
       description: 'Disciplina, hierarquia, execução de ordens, rotinas intensas e desenvolvimento de responsabilidade operacional e mental.',
-      icon: '🪖',
+      icon: '⚔️',
     },
     {
       year: '2023',
