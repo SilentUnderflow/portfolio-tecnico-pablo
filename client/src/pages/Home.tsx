@@ -155,7 +155,7 @@ export default function Home() {
             </h1>
 
             <h2 className="mb-6 text-xl font-semibold text-cyan-300 md:text-2xl">
-              Profissional em Transição para Tecnologia
+              Infraestrutura | Redes | Linux | Cibersegurança
             </h2>
 
             <p className="mb-8 text-lg text-slate-300 md:text-xl">
