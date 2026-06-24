@@ -159,7 +159,7 @@ export default function Home() {
             </h2>
 
             <p className="mb-8 text-lg text-slate-300 md:text-xl">
-              Redes | Linux | Cibersegurança | Suporte Técnico
+              Transformando experiência operacional em soluções tecnológicas.
             </p>
 
             <p className="mb-12 max-w-2xl text-base text-slate-400 md:text-lg">
