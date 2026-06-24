@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import TechCard from '@/components/TechCard';
 import Timeline from '@/components/Timeline';
 import { Button } from '@/components/ui/button';
+import { Download } from 'lucide-react';
 
 const LOGO_URL = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663258683450/F96qkUtQQhpz7pemGrg3Rv/logo-pablo-dffBY427M2FxqQGMW5Lfic.webp';
 const HERO_BG_URL = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663258683450/F96qkUtQQhpz7pemGrg3Rv/hero-bg-4YiFD3JaqvyWxahpSWhhHg.webp';
@@ -348,6 +349,15 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-wrap justify-center gap-6">
+            <a
+              href="/manus-storage/curriculum_491abb25.pdf"
+              download="Pablo_Mendes_Curriculum.pdf"
+              className="glow-effect flex items-center gap-3 rounded-lg border border-cyan-500/20 bg-gradient-to-br from-slate-900/50 to-purple-900/20 px-6 py-3 backdrop-blur-sm transition-all hover:border-cyan-400/50"
+            >
+              <Download className="h-5 w-5 text-cyan-400" />
+              <span className="font-semibold text-slate-300">Currículo PDF</span>
+            </a>
+
             <a
               href="https://www.linkedin.com/in/pablomendess/"
               target="_blank"
