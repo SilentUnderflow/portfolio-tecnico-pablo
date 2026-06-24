@@ -9,7 +9,7 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 
 export default defineConfig({
-  base: "/portfolio-tecnico-pablo/", // ESTA LINHA É FUNDAMENTAL
+  base: "/portfolio-tecnico-pablo/"
   plugins,
   resolve: {
     alias: {
