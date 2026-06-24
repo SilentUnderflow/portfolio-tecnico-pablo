@@ -350,8 +350,8 @@ export default function Home() {
 
           <div className="flex flex-wrap justify-center gap-6">
             <a
-              href="/manus-storage/curriculum_491abb25.pdf"
-              download="Pablo_Mendes_Curriculum.pdf"
+              href="/Pablo_Curriculum.pdf"
+              download="Pablo_Curriculum.pdf"
               className="glow-effect flex items-center gap-3 rounded-lg border border-cyan-500/20 bg-gradient-to-br from-slate-900/50 to-purple-900/20 px-6 py-3 backdrop-blur-sm transition-all hover:border-cyan-400/50"
             >
               <Download className="h-5 w-5 text-cyan-400" />
